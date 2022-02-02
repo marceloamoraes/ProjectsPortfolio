@@ -1,7 +1,7 @@
 README
 
 Project: Data Modeling with Postgres
-This project plans to help analytics team with the collection songs and user activity on their new music streaming app.
+Project to help analytics team with the collection songs and user activity on their new music streaming app.
 
 Project Description
 Project for data modeling with Postgres and build an ETL pipeline using Python. 
