@@ -1,13 +1,13 @@
-<title>README</title>
+<h3>README</h3>
 
-<header h1> Project: Data Modeling with Postgres</header>
+<h4> Project: Data Modeling with Postgres</h4>
 <p>Project to help analytics team with the collection songs and user activity on their new music streaming app.</p>
 
-<header h1> Project Description </header>
+<h4> Project Description </h4>
 <p>Project for data modeling with Postgres and build an ETL pipeline using Python.</p> 
 <p>The main feature is a ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.</p>
 
-<header h1>Running the files</header>
+<h4>Running the files</h4>
 <p>Files should be openned thru command line and the following order:</p>
 
 <p>1) For windows terminal:
@@ -18,16 +18,15 @@
     1.2 type on the command line: "etl.py" (This program iterate and extrac each file from the directories, transform and load to the     database tables)
 </p>
 
-<header h1>Examples of the program execution:</header>
+<h4>Examples of the program execution:</h4>
 
 <p>root@d18a7dd42548:/home/workspace# python create_tables.py</p>
 <p>root@d18a7dd42548:/home/workspace# python etl.py</p>
 
 <p>
 At the end of execution the following commands should apper, indicating a successful execution.</p>
-<p>
-28/30 files processed.
-29/30 files processed.
-30/30 files processed.
-root@d18a7dd42548:/home/workspace#
-</p>
+<p>28/30 files processed.</p>
+<p>29/30 files processed.</p>
+<p>30/30 files processed.</p>
+<p>root@d18a7dd42548:/home/workspace#</p>
+
