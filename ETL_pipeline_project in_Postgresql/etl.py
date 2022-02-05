@@ -123,6 +123,12 @@ def main():
     process_data(cur, conn, filepath='data/song_data', func=process_song_file)
     process_data(cur, conn, filepath='data/log_data', func=process_log_file)
 
+#    conn.close()
+    cur.execute("select * from songplays WHERE song_id is not null and artist_id is not null")
+    results = cur.fetchall()
+    print("Result of `select * from songplays WHERE song_id is not null and artist_id is not null`:")
+    print(results)
+    
     conn.close()
 
 
