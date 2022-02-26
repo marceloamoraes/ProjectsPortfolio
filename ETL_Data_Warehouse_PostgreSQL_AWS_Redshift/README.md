@@ -21,10 +21,10 @@
 <p>1) For windows terminal (cmd):</p>	
 
 <p>1.1 Execute in the command line: "python create_tables.py"</p> 
-<p>This program will create all the required tables on the Postgresql database.</p>
+This program will create all the required tables on the Postgresql database.
 
 <p>1.2 Execute in the command line: "etl.py"</p> 
-<p>This program will iterate and extract each file from the directories, transform and load to the database tables.</p>
+This program will iterate and extract each file from the directories, transform and load to the database tables.
 <p>
 Output of program execution should follow the example below:
 root@55acxxxxxxxx:/home/workspace# python create_tables.py
